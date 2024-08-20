@@ -1,0 +1,44 @@
+.sobre {
+    margin-top: 200px;
+
+    @media (max-width: 768px) {
+        margin-top: 120px;
+    }
+
+    &__image {
+        height: 300px;
+        margin-right: 50px;
+
+        @media (max-width: 768px) {
+            margin: 0 0 20px 0;
+            height: 200px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__content {
+        @media (max-width: 768px) {
+            padding-bottom: 20px;
+        }
+
+        &__title {
+            color: #823ED8;
+
+
+        }
+
+        &__text {
+            color: white;
+        }
+    }
+}
